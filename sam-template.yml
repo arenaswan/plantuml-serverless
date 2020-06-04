@@ -103,7 +103,7 @@ Resources:
       Handler: com.nitor.plantuml.lambda.UIHandler::handleRequest
       CodeUri: !Ref paramCodeUri
       Timeout: 20
-      CodeUri: target/plantuml-serverless-0.0.7-SNAPSHOT.jar
+      CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
           Type: Api
