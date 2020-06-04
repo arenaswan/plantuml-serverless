@@ -1,7 +1,7 @@
 #!/bin/bash
 
 aws cloudformation package \
---s3-bucket plantuml-serverlessrepo \
+--s3-bucket plant.draw.io \
 --output-template-file target/serverless-output.yaml \
 --template-file sam-template.yml
 
