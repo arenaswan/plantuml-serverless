@@ -5,7 +5,7 @@
   <groupId>com.nitor</groupId>
   <artifactId>plantuml-serverless</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.7-DRAWIO</version>
   <name>PlantUML Serverless API</name>
 
   <properties>
@@ -33,7 +33,7 @@
     <dependency>
       <groupId>net.sourceforge.plantuml</groupId>
       <artifactId>plantuml</artifactId>
-      <version>1.2020.0</version>
+      <version>1.2020.12-DRAWIO</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxrs -->
     <dependency>
