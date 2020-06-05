@@ -7,5 +7,5 @@ aws cloudformation package \
 
 aws cloudformation deploy \
 --template-file target/serverless-output.yaml \
---stack-name sam-plantuml \
+--stack-name drawio-plantuml \
 --capabilities CAPABILITY_IAM

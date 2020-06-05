@@ -5,8 +5,8 @@ Description: PlantUML Serverless API
 Globals:
   Function:
     Runtime: java8
-    Timeout: 20
-    MemorySize: 512
+    Timeout: 30
+    MemorySize: 1024
 
 Resources:
   PlantUMLAPI:
