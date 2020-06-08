@@ -9,7 +9,7 @@ provider:
   stage: dev
   profile: core
   cfLogs: true
-  timeout: 30
+  timeout: 40
   environment:
     stage: ${self:custom.stage}
 
@@ -21,11 +21,11 @@ plugins:
 custom:
   stage: ${opt:stage, self:provider.stage}
   domains:
-    plantuml: plantuml.nitorio.us
-    dev: plantuml-dev.nitorio.us
+    plantuml: plant-aws.diagrams.net
+    dev: plant-aws-dev.diagrams.net
   customDomain:
     domainName: ${self:custom.domains.${self:custom.stage}}
-    certificateName: plantuml-dev.nitorio.us
+    certificateName: plant-aws-dev.diagrams.net
     basePath: ''
     stage: "${self:custom.stage}"
     createRoute53Record: true
