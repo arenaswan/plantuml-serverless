@@ -102,7 +102,7 @@ Resources:
     Properties:
       Handler: com.nitor.plantuml.lambda.UIHandler::handleRequest
       CodeUri: !Ref paramCodeUri
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
@@ -117,7 +117,7 @@ Resources:
     Properties:
       Handler: com.nitor.plantuml.lambda.PngHandler::handleRequest
       CodeUri: !Ref paramCodeUri
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
@@ -131,7 +131,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.nitor.plantuml.lambda.PngHandler::handleRequest
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
@@ -145,7 +145,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.nitor.plantuml.lambda.SvgHandler::handleRequest
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
@@ -159,7 +159,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.nitor.plantuml.lambda.TxtHandler::handleRequest
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
@@ -173,7 +173,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.nitor.plantuml.lambda.MapHandler::handleRequest
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
@@ -187,7 +187,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.nitor.plantuml.lambda.SyntaxHandler::handleRequest
-      Timeout: 20
+      Timeout: 30
       CodeUri: target/plantuml-serverless-0.0.7-DRAWIO.jar
       Events:
         GetResource:
